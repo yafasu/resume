@@ -105,15 +105,12 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.wrap {
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    position: relative;
+h1 {
+    font-size: 4em;
 }
 
-h1 {
-    font-size: 6em;
+h2 {
+    font-size: 2.5em;
 }
 
 p {
@@ -121,13 +118,23 @@ p {
 }
 
 .intro p {
-    width: 50%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.resume p {
+    width: 85%;
     margin: 0 auto;
     font-size: 1.5em;
 }
 
 .section {
     text-align: center;
+}
+
+.experience {
+    margin: 20px 0;
 }
 
 #menu li {
