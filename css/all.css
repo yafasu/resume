@@ -101,16 +101,26 @@ acronym {
 
 body {
     font-family: arial, helvetica;
-    color: #333;
-    color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 h1 {
+    color: #fff;
     font-size: 4em;
+    margin-bottom: 10px;
 }
 
 h2 {
+    color: #fff;
     font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 p {
@@ -118,23 +128,51 @@ p {
 }
 
 .intro p {
-    width: 75%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto 10px;
     font-size: 1.5em;
 }
 
-.resume p {
-    width: 85%;
+.experience {
+    width: 80%;
     margin: 0 auto;
+}
+
+.experience p {
+    margin-bottom: 10px;
     font-size: 1.5em;
+}
+
+.experience .company-name {}
+
+.experience .date-locale {
+    font-size: 1.1em;
+}
+
+.experience .date-locale .locality {
+    font-size: 0.9em;
+}
+
+.experience ul.job-description {
+    padding: 10px 0;
+}
+
+.experience ul.job-description li {
+    font-size: 1em;
+    margin: 10px auto;
+}
+
+.skill {
+    padding: 15px 0;
+}
+
+.skill p.skill-pill {
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 .section {
     text-align: center;
-}
-
-.experience {
-    margin: 20px 0;
 }
 
 #menu li {

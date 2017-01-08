@@ -3,6 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yafasu - Resume</title>
     <meta name="author" content="Yafa Su" />
     <meta name="description" content="My Resume" />
@@ -28,8 +29,8 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
-                anchors: ['firstPage', 'secondPage', '3rdPage'],
+                sectionsColor: ['#C63D0F', '#4BBFC3', '#7BAABE'],
+                anchors: ['1', '2', '3'],
                 menu: '#menu',
                 loopTop: true,
                 loopBottom: true
@@ -42,33 +43,69 @@
 <body>
 
     <ul id="menu">
-        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">about me</a></li>
-        <li data-menuanchor="secondPage"><a href="#secondPage">my resume</a></li>
-        <li data-menuanchor="3rdPage"><a href="#3rdPage">contact me</a></li>
+        <li data-menuanchor="1" class="active"><a href="#1">about me</a></li>
+        <li data-menuanchor="2"><a href="#2">my experiences</a></li>
+        <li data-menuanchor="3"><a href="#3">my skills</a></li>
     </ul>
 
     <div id="fullpage">
         <div class="section " id="section0">
             <div class="intro">
-                <h1>Yafa Su</h1>
-                <p>Web Integrator & Developer specializing in front end and back end development. Three years of experience developing web applications using various web development tools. Enthusiastic and motivated on taking new projects.</p>
+                <h1><strong>Yafa Su</strong></h1>
+                <p>I am a web integrator & developer specializing in front-end and back-end development. Three years of experience developing web applications using various web development tools. Enthusiastic and motivated on taking new projects.</p>
             </div>
         </div>
         <div class="section" id="section1">
-            <div class="resume">
-                <h2>My resume</h2>
+            <div class="slide">
                 <div class="experience">
-                    <p class="title">Web Developer</p>
+                    <h2 class="job-title"><strong>Web Developer</strong></h2>
+                    <p class="company-name">Lavasoft</p>
+                    <p class="date-locale">2015 - Present <span class="locality">| Montreal, Canada</span></p>
+                    <ul class="job-description">
+                        <li>&#9675; Developed front-end Web UI of the existing software with Angularjs</li>
+                        <li>&#9675; Built and implemented features and worked on solving bugs/performance issues</li>
+                        <li>&#9675; Worked closely with back-end software developers</li>
+                        <li>&#9675; Implemented and updated existing websites using PHP and MySQL</li>
+                        <li>&#9675; Managed project development through version control systems</li>
+                        <li>&#9675; Worked closely with SEO specialist to improve ranking of our existing websites</li>
+                        <li>&#9675; Worked with JIRA tool to solve and report the bugs and issues</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="slide">
                 <div class="experience">
-                    <p class="title">Web Integrator</p>
+                    <h2 class="job-title"><strong>Web Integrator</strong></h2>
+                    <p class="company-name">Lavasoft</p>
+                    <p class="date-locale">2013 - 2015 <span class="locality">| Montreal, Canada</span></p>
+                    <ul class="job-description">
+                        <li>&#9675; HTML, CSS and JavaScript integration</li>
+                        <li>&#9675; MySQL database and queries</li>
+                        <li>&#9675; Basic programming using PHP</li>
+                        <li>&#9675; Integrated content management systems (Drupal)</li>
+                        <li>&#9675; Implemented web pages and banners from design mockups using HTML,CSS and JQuery</li>
+                        <li>&#9675; Performed changes and fixing bugs to improve performance experience</li>
+                        <li>&#9675; Work with marketing team in order to provide the right tool for affiliates online</li>
+                        <li>&#9675; Created HTML email templates and newsletters for e-mail marketing campaigns</li>
+                        <li>&#9675; Implemented Google Analytics tracking to our existing websites</li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="section" id="section2">
             <div class="intro">
-                <h2>Contact me</h2>
-                <p>And it will loop to the first section</p>
+                <h2><strong>My skills</strong></h2>
+                <div class="skill">
+                    <h3 class="skill-title">Languages</h3>
+                    <p class="skill-pill">HTML5, CSS3, JavaScript, JQuery, PHP, AJAX, MYSQL</p>
+                </div>
+                <div class="skill">
+                    <h3 class="skill-title">Frameworks & CMS</h3>
+                    <p class="skill-pill">AngularJS, Zend Framework, Wordpress, Drupal, Bootstrap</p>
+                </div>
+                <div class="skill">
+                    <h3 class="skill-title">Others</h3>
+                    <p class="skill-pill">Photoshop, Google Analytics, JIRA, Git, Tortoise SVN, SEO</p>
+                </div>
             </div>
         </div>
     </div>
